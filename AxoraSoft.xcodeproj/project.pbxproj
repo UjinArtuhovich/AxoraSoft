@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93B04A1E277910C80067A0A6 /* AxoraSoftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B04A1D277910C80067A0A6 /* AxoraSoftApp.swift */; };
+		93B04A20277910C80067A0A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B04A1F277910C80067A0A6 /* ContentView.swift */; };
+		93B04A22277910CB0067A0A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B04A21277910CB0067A0A6 /* Assets.xcassets */; };
+		93B04A25277910CB0067A0A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B04A24277910CB0067A0A6 /* Preview Assets.xcassets */; };
+		93B04A27277910CB0067A0A6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B04A26277910CB0067A0A6 /* Persistence.swift */; };
+		93B04A2A277910CB0067A0A6 /* AxoraSoft.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93B04A28277910CB0067A0A6 /* AxoraSoft.xcdatamodeld */; };
+		93B04A34277910CB0067A0A6 /* AxoraSoftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B04A33277910CB0067A0A6 /* AxoraSoftTests.swift */; };
+		93B04A3E277910CC0067A0A6 /* AxoraSoftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B04A3D277910CC0067A0A6 /* AxoraSoftUITests.swift */; };
+		93B04A40277910CC0067A0A6 /* AxoraSoftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B04A3F277910CC0067A0A6 /* AxoraSoftUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93B04A30277910CB0067A0A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93B04A12277910C70067A0A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B04A19277910C80067A0A6;
+			remoteInfo = AxoraSoft;
+		};
+		93B04A3A277910CC0067A0A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93B04A12277910C70067A0A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B04A19277910C80067A0A6;
+			remoteInfo = AxoraSoft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93B04A1A277910C80067A0A6 /* AxoraSoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AxoraSoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B04A1D277910C80067A0A6 /* AxoraSoftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxoraSoftApp.swift; sourceTree = "<group>"; };
+		93B04A1F277910C80067A0A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93B04A21277910CB0067A0A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93B04A24277910CB0067A0A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93B04A26277910CB0067A0A6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		93B04A29277910CB0067A0A6 /* AxoraSoft.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AxoraSoft.xcdatamodel; sourceTree = "<group>"; };
+		93B04A2F277910CB0067A0A6 /* AxoraSoftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxoraSoftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B04A33277910CB0067A0A6 /* AxoraSoftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxoraSoftTests.swift; sourceTree = "<group>"; };
+		93B04A39277910CB0067A0A6 /* AxoraSoftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxoraSoftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B04A3D277910CC0067A0A6 /* AxoraSoftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxoraSoftUITests.swift; sourceTree = "<group>"; };
+		93B04A3F277910CC0067A0A6 /* AxoraSoftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxoraSoftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93B04A17277910C80067A0A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B04A2C277910CB0067A0A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B04A36277910CB0067A0A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93B04A11277910C70067A0A6 = {
+			isa = PBXGroup;
+			children = (
+				93B04A1C277910C80067A0A6 /* AxoraSoft */,
+				93B04A32277910CB0067A0A6 /* AxoraSoftTests */,
+				93B04A3C277910CC0067A0A6 /* AxoraSoftUITests */,
+				93B04A1B277910C80067A0A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93B04A1B277910C80067A0A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93B04A1A277910C80067A0A6 /* AxoraSoft.app */,
+				93B04A2F277910CB0067A0A6 /* AxoraSoftTests.xctest */,
+				93B04A39277910CB0067A0A6 /* AxoraSoftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93B04A1C277910C80067A0A6 /* AxoraSoft */ = {
+			isa = PBXGroup;
+			children = (
+				93B04A1D277910C80067A0A6 /* AxoraSoftApp.swift */,
+				93B04A1F277910C80067A0A6 /* ContentView.swift */,
+				93B04A21277910CB0067A0A6 /* Assets.xcassets */,
+				93B04A26277910CB0067A0A6 /* Persistence.swift */,
+				93B04A28277910CB0067A0A6 /* AxoraSoft.xcdatamodeld */,
+				93B04A23277910CB0067A0A6 /* Preview Content */,
+			);
+			path = AxoraSoft;
+			sourceTree = "<group>";
+		};
+		93B04A23277910CB0067A0A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				93B04A24277910CB0067A0A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93B04A32277910CB0067A0A6 /* AxoraSoftTests */ = {
+			isa = PBXGroup;
+			children = (
+				93B04A33277910CB0067A0A6 /* AxoraSoftTests.swift */,
+			);
+			path = AxoraSoftTests;
+			sourceTree = "<group>";
+		};
+		93B04A3C277910CC0067A0A6 /* AxoraSoftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93B04A3D277910CC0067A0A6 /* AxoraSoftUITests.swift */,
+				93B04A3F277910CC0067A0A6 /* AxoraSoftUITestsLaunchTests.swift */,
+			);
+			path = AxoraSoftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93B04A19277910C80067A0A6 /* AxoraSoft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B04A43277910CC0067A0A6 /* Build configuration list for PBXNativeTarget "AxoraSoft" */;
+			buildPhases = (
+				93B04A16277910C80067A0A6 /* Sources */,
+				93B04A17277910C80067A0A6 /* Frameworks */,
+				93B04A18277910C80067A0A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AxoraSoft;
+			productName = AxoraSoft;
+			productReference = 93B04A1A277910C80067A0A6 /* AxoraSoft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93B04A2E277910CB0067A0A6 /* AxoraSoftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B04A46277910CC0067A0A6 /* Build configuration list for PBXNativeTarget "AxoraSoftTests" */;
+			buildPhases = (
+				93B04A2B277910CB0067A0A6 /* Sources */,
+				93B04A2C277910CB0067A0A6 /* Frameworks */,
+				93B04A2D277910CB0067A0A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93B04A31277910CB0067A0A6 /* PBXTargetDependency */,
+			);
+			name = AxoraSoftTests;
+			productName = AxoraSoftTests;
+			productReference = 93B04A2F277910CB0067A0A6 /* AxoraSoftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93B04A38277910CB0067A0A6 /* AxoraSoftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B04A49277910CC0067A0A6 /* Build configuration list for PBXNativeTarget "AxoraSoftUITests" */;
+			buildPhases = (
+				93B04A35277910CB0067A0A6 /* Sources */,
+				93B04A36277910CB0067A0A6 /* Frameworks */,
+				93B04A37277910CB0067A0A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93B04A3B277910CC0067A0A6 /* PBXTargetDependency */,
+			);
+			name = AxoraSoftUITests;
+			productName = AxoraSoftUITests;
+			productReference = 93B04A39277910CB0067A0A6 /* AxoraSoftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93B04A12277910C70067A0A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					93B04A19277910C80067A0A6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					93B04A2E277910CB0067A0A6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 93B04A19277910C80067A0A6;
+					};
+					93B04A38277910CB0067A0A6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 93B04A19277910C80067A0A6;
+					};
+				};
+			};
+			buildConfigurationList = 93B04A15277910C70067A0A6 /* Build configuration list for PBXProject "AxoraSoft" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93B04A11277910C70067A0A6;
+			productRefGroup = 93B04A1B277910C80067A0A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93B04A19277910C80067A0A6 /* AxoraSoft */,
+				93B04A2E277910CB0067A0A6 /* AxoraSoftTests */,
+				93B04A38277910CB0067A0A6 /* AxoraSoftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93B04A18277910C80067A0A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B04A25277910CB0067A0A6 /* Preview Assets.xcassets in Resources */,
+				93B04A22277910CB0067A0A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B04A2D277910CB0067A0A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B04A37277910CB0067A0A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93B04A16277910C80067A0A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B04A27277910CB0067A0A6 /* Persistence.swift in Sources */,
+				93B04A2A277910CB0067A0A6 /* AxoraSoft.xcdatamodeld in Sources */,
+				93B04A20277910C80067A0A6 /* ContentView.swift in Sources */,
+				93B04A1E277910C80067A0A6 /* AxoraSoftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B04A2B277910CB0067A0A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B04A34277910CB0067A0A6 /* AxoraSoftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B04A35277910CB0067A0A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B04A40277910CC0067A0A6 /* AxoraSoftUITestsLaunchTests.swift in Sources */,
+				93B04A3E277910CC0067A0A6 /* AxoraSoftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93B04A31277910CB0067A0A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93B04A19277910C80067A0A6 /* AxoraSoft */;
+			targetProxy = 93B04A30277910CB0067A0A6 /* PBXContainerItemProxy */;
+		};
+		93B04A3B277910CC0067A0A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93B04A19277910C80067A0A6 /* AxoraSoft */;
+			targetProxy = 93B04A3A277910CC0067A0A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93B04A41277910CC0067A0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93B04A42277910CC0067A0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93B04A44277910CC0067A0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AxoraSoft/Preview Content\"";
+				DEVELOPMENT_TEAM = 78X5672765;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ujin.AxoraSoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93B04A45277910CC0067A0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AxoraSoft/Preview Content\"";
+				DEVELOPMENT_TEAM = 78X5672765;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ujin.AxoraSoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93B04A47277910CC0067A0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78X5672765;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ujin.AxoraSoftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AxoraSoft.app/AxoraSoft";
+			};
+			name = Debug;
+		};
+		93B04A48277910CC0067A0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78X5672765;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ujin.AxoraSoftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AxoraSoft.app/AxoraSoft";
+			};
+			name = Release;
+		};
+		93B04A4A277910CC0067A0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78X5672765;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ujin.AxoraSoftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AxoraSoft;
+			};
+			name = Debug;
+		};
+		93B04A4B277910CC0067A0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78X5672765;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ujin.AxoraSoftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AxoraSoft;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93B04A15277910C70067A0A6 /* Build configuration list for PBXProject "AxoraSoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B04A41277910CC0067A0A6 /* Debug */,
+				93B04A42277910CC0067A0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B04A43277910CC0067A0A6 /* Build configuration list for PBXNativeTarget "AxoraSoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B04A44277910CC0067A0A6 /* Debug */,
+				93B04A45277910CC0067A0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B04A46277910CC0067A0A6 /* Build configuration list for PBXNativeTarget "AxoraSoftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B04A47277910CC0067A0A6 /* Debug */,
+				93B04A48277910CC0067A0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B04A49277910CC0067A0A6 /* Build configuration list for PBXNativeTarget "AxoraSoftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B04A4A277910CC0067A0A6 /* Debug */,
+				93B04A4B277910CC0067A0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93B04A28277910CB0067A0A6 /* AxoraSoft.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93B04A29277910CB0067A0A6 /* AxoraSoft.xcdatamodel */,
+			);
+			currentVersion = 93B04A29277910CB0067A0A6 /* AxoraSoft.xcdatamodel */;
+			path = AxoraSoft.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 93B04A12277910C70067A0A6 /* Project object */;
+}
