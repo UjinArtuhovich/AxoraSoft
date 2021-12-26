@@ -9,12 +9,28 @@ import SwiftUI
 
 @main
 struct AxoraSoftApp: App {
-    let persistenceController = PersistenceController.shared
-
+    @StateObject var vm: ViewModel = .init()
+    @Environment(\.scenePhase) var scenePhase
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            ContentView(vm: vm)
+                .onAppear {
+                    vm.applicationTimer.startTimer()
+                }
+            //MARK: track application lifecycle
+                .onChange(of: scenePhase) { newScenePhase in
+                    switch newScenePhase {
+                    case .active:
+                        print("App is active")
+                    case .inactive:
+                        vm.saveTimingStaistics()
+                    case .background:
+                        print("App is in background")
+                    @unknown default:
+                        print("unexpected new value.")
+                    }
+                }
         }
     }
 }

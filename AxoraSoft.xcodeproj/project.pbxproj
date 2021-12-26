@@ -16,6 +16,13 @@
 		93B04A34277910CB0067A0A6 /* AxoraSoftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B04A33277910CB0067A0A6 /* AxoraSoftTests.swift */; };
 		93B04A3E277910CC0067A0A6 /* AxoraSoftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B04A3D277910CC0067A0A6 /* AxoraSoftUITests.swift */; };
 		93B04A40277910CC0067A0A6 /* AxoraSoftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B04A3F277910CC0067A0A6 /* AxoraSoftUITestsLaunchTests.swift */; };
+		93B04A512779117E0067A0A6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B04A502779117E0067A0A6 /* ViewModel.swift */; };
+		93B04A53277911A90067A0A6 /* CustomTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B04A52277911A90067A0A6 /* CustomTimer.swift */; };
+		93B04A55277911BD0067A0A6 /* StatisticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B04A54277911BD0067A0A6 /* StatisticsManager.swift */; };
+		93B04A57277911C90067A0A6 /* SecondsConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B04A56277911C90067A0A6 /* SecondsConverter.swift */; };
+		93B04A59277912880067A0A6 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B04A58277912880067A0A6 /* ChatView.swift */; };
+		93B04A5B2779128F0067A0A6 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B04A5A2779128F0067A0A6 /* StatisticsView.swift */; };
+		93B04A5D277912CC0067A0A6 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B04A5C277912CC0067A0A6 /* UserDefaultsKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,13 @@
 		93B04A39277910CB0067A0A6 /* AxoraSoftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxoraSoftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B04A3D277910CC0067A0A6 /* AxoraSoftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxoraSoftUITests.swift; sourceTree = "<group>"; };
 		93B04A3F277910CC0067A0A6 /* AxoraSoftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxoraSoftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93B04A502779117E0067A0A6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		93B04A52277911A90067A0A6 /* CustomTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimer.swift; sourceTree = "<group>"; };
+		93B04A54277911BD0067A0A6 /* StatisticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsManager.swift; sourceTree = "<group>"; };
+		93B04A56277911C90067A0A6 /* SecondsConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondsConverter.swift; sourceTree = "<group>"; };
+		93B04A58277912880067A0A6 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		93B04A5A2779128F0067A0A6 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		93B04A5C277912CC0067A0A6 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +113,10 @@
 			isa = PBXGroup;
 			children = (
 				93B04A1D277910C80067A0A6 /* AxoraSoftApp.swift */,
-				93B04A1F277910C80067A0A6 /* ContentView.swift */,
+				93B04A4F277911330067A0A6 /* Constants */,
+				93B04A4E277911270067A0A6 /* Services */,
+				93B04A4D2779111D0067A0A6 /* VM */,
+				93B04A4C277911130067A0A6 /* Views */,
 				93B04A21277910CB0067A0A6 /* Assets.xcassets */,
 				93B04A26277910CB0067A0A6 /* Persistence.swift */,
 				93B04A28277910CB0067A0A6 /* AxoraSoft.xcdatamodeld */,
@@ -131,6 +148,42 @@
 				93B04A3F277910CC0067A0A6 /* AxoraSoftUITestsLaunchTests.swift */,
 			);
 			path = AxoraSoftUITests;
+			sourceTree = "<group>";
+		};
+		93B04A4C277911130067A0A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93B04A1F277910C80067A0A6 /* ContentView.swift */,
+				93B04A58277912880067A0A6 /* ChatView.swift */,
+				93B04A5A2779128F0067A0A6 /* StatisticsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93B04A4D2779111D0067A0A6 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				93B04A502779117E0067A0A6 /* ViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		93B04A4E277911270067A0A6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				93B04A52277911A90067A0A6 /* CustomTimer.swift */,
+				93B04A54277911BD0067A0A6 /* StatisticsManager.swift */,
+				93B04A56277911C90067A0A6 /* SecondsConverter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		93B04A4F277911330067A0A6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				93B04A5C277912CC0067A0A6 /* UserDefaultsKeys.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +316,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B04A57277911C90067A0A6 /* SecondsConverter.swift in Sources */,
+				93B04A53277911A90067A0A6 /* CustomTimer.swift in Sources */,
+				93B04A512779117E0067A0A6 /* ViewModel.swift in Sources */,
 				93B04A27277910CB0067A0A6 /* Persistence.swift in Sources */,
+				93B04A59277912880067A0A6 /* ChatView.swift in Sources */,
+				93B04A5D277912CC0067A0A6 /* UserDefaultsKeys.swift in Sources */,
+				93B04A5B2779128F0067A0A6 /* StatisticsView.swift in Sources */,
+				93B04A55277911BD0067A0A6 /* StatisticsManager.swift in Sources */,
 				93B04A2A277910CB0067A0A6 /* AxoraSoft.xcdatamodeld in Sources */,
 				93B04A20277910C80067A0A6 /* ContentView.swift in Sources */,
 				93B04A1E277910C80067A0A6 /* AxoraSoftApp.swift in Sources */,
